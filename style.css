@@ -8,6 +8,8 @@
 }
 header{
     position: absolute;
+   display: flex;
+   justify-content: space-around;
     top:0;
     color: white;
     z-index: 1;
@@ -16,11 +18,16 @@ header{
 p{
     padding: 10px;
 }
+.btn{
+    background-color: green;
+    border-radius: 10px;
+    width: 100px;
+}
 @media screen and (max-width: 600px) {
     header{
         position: sticky;
         top: 0px;
-        background-color: black;
+        background: rgba(34,34,34,0.75);
         display: flex;
         justify-content: center;
         align-items: center;

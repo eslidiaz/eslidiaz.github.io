@@ -10,6 +10,9 @@
 <body>
     <header>
         <p>Esli Diaz</p>
+        <div class="btn">
+            <p>Descargar Curriculum</p>
+        </div>
     </header>
     <div class="hero">
         <div class="hero-text">
@@ -53,10 +56,19 @@
         <div class="trabajos">
             <div class="trabajo">
                 <div class="empresa">
-                    
+
                 </div>
             </div>
         </div>
     </section>
+    <script>
+        function descargaCurriculum(url){
+            window.open(url, "_blank")
+        }
+        document.querySelector(".btn").addEventListener("click",()=>{
+
+        
+        descargaCurriculum("https://eslidiaz.github.io/horarios.pdf")})
+    </script>
 </body>
 </html>
