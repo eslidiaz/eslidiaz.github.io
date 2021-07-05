@@ -1,0 +1,28 @@
+@import "/style/hero.css";
+@import "/style/container.css";
+@import "/style/habilidades.css";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+header{
+    position: absolute;
+    top:0;
+    color: white;
+    z-index: 1;
+    padding: 20px;
+}
+p{
+    padding: 10px;
+}
+@media screen and (max-width: 600px) {
+    header{
+        position: sticky;
+        top: 0px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
