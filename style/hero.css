@@ -1,0 +1,43 @@
+.hero{
+    background-color: #000000;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    transition: 2s;
+
+}
+.hero-text{
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text h1{
+    font-size: 0.8em;
+}
+.hero-text h2{
+    font-size: 1.8em;
+    color: #814fd1;
+}
+.hero img{
+    width: 300px;
+    padding: 10px
+}
+@media screen and (max-width: 600px) {
+.hero{
+    transition: 2s;
+    flex-direction: column-reverse;
+} 
+.hero-text{
+    width: 90%;
+}   
+.hero img{
+    width: 50%;
+}
+}
