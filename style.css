@@ -1,6 +1,7 @@
 @import "/style/hero.css";
 @import "/style/container.css";
 @import "/style/habilidades.css";
+@import "/style/trabajos.css";
 *{
     margin: 0;
     padding: 0;
