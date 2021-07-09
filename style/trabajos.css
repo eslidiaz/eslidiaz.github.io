@@ -1,0 +1,34 @@
+.trabajos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.trabajo{
+    width: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    transition: 2s;
+}
+
+.trabajo img{
+    width: 90%;
+    transition: 2s;
+}
+.trabajo .trabajo-texto{
+    display: none;
+    transform: rotateX(160deg);
+}
+.trabajo:hover{
+    transform: rotatex(160deg);
+}
+.trabajo:hover img{
+    display: none;
+}
+.trabajo:hover .trabajo-texto{
+    display:block;
+}
+

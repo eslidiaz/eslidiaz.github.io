@@ -10,6 +10,9 @@
 <body>
     <header>
         <p>Esli Diaz</p>
+        <div class="btn">
+            <p>Descargar Curriculum</p>
+        </div>
     </header>
     <div class="hero">
         <div class="hero-text">
@@ -53,10 +56,32 @@
         <div class="trabajos">
             <div class="trabajo">
                 <div class="empresa">
-                    
+                    <img src="https://parquelasamericas.com.gt/wp-content/uploads/2019/04/Dunkin.jpg" alt="">
+                    <div class="trabajo-texto">
+                        <p>Interdonas de Guatemala</p>
+                        <p>Colaboradora de restaurante</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trabajo">
+                <div class="empresa">
+                    <img src="http://superb.com.gt/wp-content/uploads/2018/07/logo-superb.png" alt="">
+                    <div class="trabajo-texto">
+                        <p>Super B</p>
+                        <p>Dependiente de tienda</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <script>
+        function descargaCurriculum(url){
+            window.open(url, "_blank")
+        }
+        document.querySelector(".btn").addEventListener("click",()=>{
+
+        
+        descargaCurriculum("https://eslidiaz.github.io/horarios.pdf")})
+    </script>
 </body>
 </html>
